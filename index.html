@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <h2 class="heading">Comments section</h2>
+
+      <div class="centered">
+        <div class="commentsSectionWrapper">
+          <div class="newCommentWrapper">
+            <textarea
+              placeholder="Add a new comment"
+              name="newComment"
+              id="newComment"
+              rows="3"
+            ></textarea>
+
+            <div class="addCommentButtonWrapper">
+              <button id="addnewComment" class="button addNewCommentButton">Add comment</button>
+            </div>
+          </div>
+
+          <!-- Comments heading -->
+          <h3 class="commentsHeading">Comments</h3>
+          <hr />
+
+          <div id="commentsContainer" class="commentsContainer"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="./index.js"></script>
+</html>

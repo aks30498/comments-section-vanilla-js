@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  padding: 4em;
+}
+
+.heading {
+  text-align: center;
+}
+
+.commentsSectionWrapper {
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  margin-top: 4em;
+  padding: 2em;
+  position: relative;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#newComment {
+  width: 100%;
+}
+
+.button {
+  margin-top: 1em;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.addCommentButtonWrapper,
+.replyButtonContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.commentsHeading {
+  margin-top: 1em;
+  margin-bottom: 0.3em;
+}
+
+.commentsContainer {
+  padding-top: 1em;
+}
+
+.reply {
+  color: #0074d9;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: 0.5em;
+}
+
+.commentCard {
+  border-radius: 4px;
+  background-color: #eee;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.replyContainer {
+  margin-top: 1em;
+  width: 100%;
+}
+
+.replyTextarea {
+  width: 100%;
+}
